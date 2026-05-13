@@ -1,0 +1,14 @@
+# Tell GitHub Linguist to ignore generated/vendor files
+package-lock.json linguist-generated=true
+client/package-lock.json linguist-generated=true
+server/package-lock.json linguist-generated=true
+
+# Mark JSX as JavaScript (React)
+*.jsx linguist-language=JavaScript
+*.js linguist-language=JavaScript
+
+# Exclude config files from language stats
+*.config.js linguist-detectable=false
+postcss.config.js linguist-detectable=false
+tailwind.config.js linguist-detectable=false
+vite.config.js linguist-detectable=false
