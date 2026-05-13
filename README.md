@@ -1,4 +1,4 @@
-# ✂️ Snip — URL Shortener
+# Snip — URL Shortener
 
 A full-stack URL shortener built with Node.js, React, and MongoDB.
 
@@ -9,12 +9,12 @@ A full-stack URL shortener built with Node.js, React, and MongoDB.
 
 ## Features
 
-- 🌍 **Public shortening** — No login required, shorten URLs instantly
-- 🔐 **User auth** — Register/login with JWT to manage your links
-- ✏️ **Custom aliases** — Choose your own short code (e.g. `/my-link`)
-- 📊 **Click analytics** — Track how many times each link is clicked
-- ⏰ **Link expiry** — Set an expiration date for any link
-- 🗑️ **Delete links** — Remove links you no longer need
+- **Public shortening** — No login required, shorten URLs instantly
+- **User auth** — Register/login with JWT to manage your links
+- **Custom aliases** — Choose your own short code (e.g. `/my-link`)
+- **Click analytics** — Track how many times each link is clicked
+- **Link expiry** — Set an expiration date for any link
+- **Delete links** — Remove links you no longer need
 
 ## Tech Stack
 
@@ -92,7 +92,7 @@ Open **http://localhost:5173** in your browser.
 
 ## How It Works
 
-1. **Guest** visits `/` → pastes a URL → gets a short link instantly
+1. **Guest** visits `/` — pastes a URL — gets a short link instantly
 2. **Short link** (e.g. `http://localhost:5000/ab3k9x`) redirects to the original URL and logs the click
 3. **Registered users** get a dashboard with analytics, custom aliases, expiry and delete controls
 
