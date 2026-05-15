@@ -1,4 +1,4 @@
-# Snip — URL Shortener
+# Snip —  URL Shortener
 
 A full-stack URL shortener built with Node.js, React, and MongoDB.
 
