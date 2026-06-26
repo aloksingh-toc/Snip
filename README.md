@@ -98,4 +98,4 @@ Open **http://localhost:5173** in your browser.
 
 ## License
 
-MIT
+Licensed under the [GNU Affero General Public License v3.0 (AGPL-3.0)](LICENSE).
